@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    position: absolute;
+    background-size: 90%;
+}
+
+@font-face {
+    font-family: "steely";
+    src: url("steely.ttf");
+}
+
+h1 {
+    font-family: "steely";
+    color: black;
+    text-align: center;
+    font-size: 110px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "steely";
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color: rgb(24, 47, 116);
+    text-align: center;
+    font-size: 40px;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    width: 0;
+    height: 0;
+    border-right: 40px solid transparent;
+    border-top: 60px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 60px solid #534026b7;
+
+}
+
+.sticky:hover {
+    border-bottom: 60px solid #050504b7;
+}
+
+.menu {
+    display: inline;   
+}
+
+.menu-item {
+    background-color: rgba(128, 128, 128, 0.288);
+    height: 60px;
+    display: inline-block;
+    font-family: "steely";
+    margin-left: 20px;
+}
+
+#discog ul {
+    list-style-type: square;
+}
+
+#discog ul li {
+    font-family: "steely";
+    font-size: 30px;
+    line-height: 65px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: black solid 1.5px;
+}
+
+#discog {
+    float: left;
+    width: 500px;
+    height: 2300px;
+}
+
+#top {
+    float: right;
+    width: 700px;
+    height: 2300px;
+}
+
+#texto {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: "steely";
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+}
+#seccion1 {
+    margin-top: 3300px;
+    border: black solid 4px;
+    background-color: black;
+    height: 400px;
+    width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+#fav {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#galeria  {
+    height: 1500px;
+    width: 1400px;
+    display: inline;
+}
+
+#galeria div {
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    border: black solid 5px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+#imagen1 {
+    background-image: url(imagen1.jpg);
+    float: left;
+}
+
+#imagen2 {
+    background-image: url(imagen2.jfif);
+    float: left;
+}
+
+#imagen3 {
+    background-image: url(imagen3.jfif);
+    float: left;
+}
+
+#imagen4 {
+    background-image: url(imagen4.jpg);
+    float: right;
+}
+
+#imagen5 {
+    background-image: url(imagen5.jpg);
+    float: right;
+}
+
+#imagen6 {
+    background-image: url(imagen6.jpg);
+    float: right;
+}
+
+#discos {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.embed-container {
+    position: relative;
+    margin: 0;
+    display: table-cell;
+}
+
+.embed-container iframe {
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(83, 32, 131);
+    font-size: 50px;
+    font-family: "steely";
+}
+
+a:hover {
+    color: rgb(147, 87, 202);
+}
+
+footer div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    height: 200px;
+}
+
+footer div p {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#contacto {
+    margin-top: 80px;
+    height: 800px;
+    width: 500px;
+    border: black dotted 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacto form {
+    font-family: "steely";
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacto form input {
+    margin-top: 30px;
+}
+
+#boton {
+    width: 80px;
+    height: 40px;
+    font-family: "steely";
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
